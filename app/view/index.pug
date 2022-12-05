@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>留言板</title>
+</head>
+<body>
+    header
+     button #[a(href='/message/new') 新增留言]
+    main
+     section
+      each message in messages
+       div(class='message-wrap')
+        button #[a(href=`/message/${message.id}/edit`) 編輯留言]
+        button(onclick=`deleteBtn(${message.id})`) 刪除留言
+        h1=message.title
+        p=message.content
+
+    script(src='../public/js/request.js')
+</body>
+</html>

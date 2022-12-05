@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>留言編輯</title>
+</head>
+<body>
+    form(action=`/edit/${message.id}`, method="post")
+     input(id='title' type="text" name='title' value=`${message.title}`)
+     textarea(id='content' name='content')=message.content
+     input(type='submit')
+     button #[a(href='/message') 取消]
+
+    script(src='/public/js/request.js')
+</body>
+</html> 
