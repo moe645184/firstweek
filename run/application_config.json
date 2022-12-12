@@ -103,28 +103,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-session/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-security/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-jsonp/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-onerror/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-i18n/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-watcher/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-schedule/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-multipart/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-development/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-logrotator/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-static/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-view/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-view-pug/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-sequelize/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-cors/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/locales",
-        "/Users/liaozhikuan/Desktop/firstweek/config/locales"
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-session/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-security/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-jsonp/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-onerror/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-i18n/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-watcher/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-schedule/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-multipart/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-development/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-static/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-view/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-view-pug/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-cors/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/locales",
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -135,8 +135,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -187,7 +187,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/liaozhikuan/Desktop/firstweek/app/public",
+      "dir": "/Users/liaozhikuan/Documents/GitHub/firstweek/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -195,7 +195,7 @@
     },
     "view": {
       "root": [
-        "/Users/liaozhikuan/Desktop/firstweek/app/view"
+        "/Users/liaozhikuan/Documents/GitHub/firstweek/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -205,7 +205,7 @@
       }
     },
     "pug": {
-      "basedir": "/Users/liaozhikuan/Desktop/firstweek/app/view",
+      "basedir": "/Users/liaozhikuan/Documents/GitHub/firstweek/app/view",
       "cache": false,
       "debug": false,
       "compileDebug": true
@@ -284,9 +284,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/liaozhikuan/Desktop/firstweek",
+    "baseDir": "/Users/liaozhikuan/Documents/GitHub/firstweek",
     "HOME": "/Users/liaozhikuan",
-    "rundir": "/Users/liaozhikuan/Desktop/firstweek/run",
+    "rundir": "/Users/liaozhikuan/Documents/GitHub/firstweek/run",
     "dump": {
       "ignore": "<Set>",
       "timing": {
@@ -322,7 +322,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/liaozhikuan/Desktop/firstweek/logs/messageboard",
+      "dir": "/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -408,8 +408,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-onerror",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-onerror",
       "version": "2.1.1"
     },
     "session": {
@@ -419,8 +419,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-session",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-session",
       "version": "3.3.0"
     },
     "i18n": {
@@ -430,8 +430,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-i18n",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -441,8 +441,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-watcher",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-watcher",
       "version": "3.1.1",
       "dependents": [
         "development"
@@ -457,8 +457,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-multipart",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-multipart",
       "version": "3.2.0"
     },
     "security": {
@@ -470,8 +470,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-security",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-security",
       "version": "2.11.0"
     },
     "development": {
@@ -485,8 +485,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-development",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -498,8 +498,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-logrotator",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -509,8 +509,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-schedule",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-schedule",
       "version": "3.7.0",
       "dependents": [
         "logrotator"
@@ -523,8 +523,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-static",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -536,8 +536,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-jsonp",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -547,8 +547,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-view",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-view",
       "version": "2.1.3",
       "dependents": [
         "pug"
@@ -563,8 +563,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-view-pug",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-view-pug",
       "version": "2.0.0"
     },
     "sequelize": {
@@ -574,8 +574,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-sequelize",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize",
       "version": "6.0.0"
     },
     "cors": {
@@ -585,14 +585,14 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/liaozhikuan/Desktop/firstweek/config/plugin.js",
-      "path": "/Users/liaozhikuan/Desktop/firstweek/node_modules/egg-cors",
+      "from": "/Users/liaozhikuan/Documents/GitHub/firstweek/config/plugin.js",
+      "path": "/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-cors",
       "version": "2.2.3"
     }
   },
   "appInfo": {
     "name": "messageboard",
-    "baseDir": "/Users/liaozhikuan/Desktop/firstweek",
+    "baseDir": "/Users/liaozhikuan/Documents/GitHub/firstweek",
     "env": "local",
     "scope": "",
     "HOME": "/Users/liaozhikuan",
@@ -646,6 +646,6 @@
       "author": "",
       "license": "MIT"
     },
-    "root": "/Users/liaozhikuan/Desktop/firstweek"
+    "root": "/Users/liaozhikuan/Documents/GitHub/firstweek"
   }
 }

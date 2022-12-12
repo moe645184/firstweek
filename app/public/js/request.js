@@ -1,7 +1,7 @@
 function deleteBtn(id) {
     $.ajax({
         url: '/message/'+id,
-        type: "DELETE",
+        type: 'DELETE',
         success: function (result) {
             console.log(result)
             location.reload()
@@ -15,7 +15,7 @@ function deleteBtn(id) {
 function reviseBtn(id) {
     $.ajax({
         url: '/message/'+id,
-        type: "PUT",
+        type: 'PUT',
         success: function (result) {
             console.log(result)
         },
