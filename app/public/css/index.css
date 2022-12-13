@@ -1,19 +1,18 @@
-button{
-    border: unset;
+button {
+  border: unset;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.message-wrap{
-    border: 1px solid black;
-    width: 90%;
-    height: 300px;
-    margin: auto;
-    
+.message-wrap {
+  border: 1px solid black;
+  width: 90%;
+  height: 300px;
+  margin: auto;
 }
 
 .message-wrap button {
-    margin-right: 20px;
+  margin-right: 20px;
 }

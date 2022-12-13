@@ -10,8 +10,8 @@
 </head>
 <body>
     form(action=`/edit/${ message.id }`, method='post')
-     input(id='title' type='text' name='title' value=`${ message.title }`)
-     textarea(id='content' name='content')=message.content
+     input(id='title' type='text' name='title' value=`${ message.title }` required)
+     textarea(id='content' name='content' required)=message.content
      input(type='submit')
      button #[a(href='/message') 取消]
 
