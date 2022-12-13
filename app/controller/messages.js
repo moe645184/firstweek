@@ -11,19 +11,21 @@ class messageController extends Controller {
     async index() {
         const { ctx } = this;
         const messages = await ctx.model.Message.findAll();
-        await ctx.render('index.pug',{messages});
+        await ctx.render('index.pug',{ messages });
     }
 
     async show() {
         const ctx = this.ctx;
-        const message= await ctx.model.Message.findByPk(toInt(ctx.params.id));
-        await ctx.render('show.pug',{message});
+        const id = toInt(ctx.params.id)
+        const message = await ctx.model.Message.findByPk(id);
+        await ctx.render('show.pug',{ message });
     }
 
     async edit() {
         const ctx = this.ctx;
-        const message= await ctx.model.Message.findByPk(toInt(ctx.params.id));
-        await ctx.render('show.pug',{message});
+        const id = toInt(ctx.params.id)
+        const message = await ctx.model.Message.findByPk(id);
+        await ctx.render('show.pug',{ message });
     }
 
     async create() {

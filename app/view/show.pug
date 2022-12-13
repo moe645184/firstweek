@@ -9,8 +9,8 @@
     <title>留言編輯</title>
 </head>
 <body>
-    form(action=`/edit/${message.id}`, method="post")
-     input(id='title' type="text" name='title' value=`${message.title}`)
+    form(action=`/edit/${ message.id }`, method='post')
+     input(id='title' type='text' name='title' value=`${ message.title }`)
      textarea(id='content' name='content')=message.content
      input(type='submit')
      button #[a(href='/message') 取消]
