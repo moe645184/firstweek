@@ -15,8 +15,8 @@
      section
       each message in messages
        div(class='message-wrap')
-        button #[a(href=`/message/${message.id}/edit`) 編輯留言]
-        button(onclick=`deleteBtn(${message.id})`) 刪除留言
+        button #[a(href=`/message/${ message.id }/edit`) 編輯留言]
+        button(onclick=`deleteBtn(${ message.id })`) 刪除留言
         h1=message.title
         p=message.content
 
