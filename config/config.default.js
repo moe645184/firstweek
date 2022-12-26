@@ -34,10 +34,10 @@ exports.pug = {}
 config.sequelize = {
   dialect: 'mysql',
   database: 'message',
-  host: '127.0.0.1',
-  port: '3306',
-  username: 'root',
-  password: 'jeff645184',
+  host: 'host.docker.internal',
+  port: '3307',
+  username: 'test',
+  password: 'test123',
   underscored: true,
   timezone: '+08:00',
 };
