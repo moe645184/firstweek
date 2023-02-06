@@ -69,3 +69,14 @@ hostname: TangChuandeMacBook-Air-3.local
 2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
 2023-02-06 11:08:19,819 INFO 10782 [egg-watcher:agent] watcher start success
 2023-02-06 11:08:19,859 INFO 10782 [egg:core] dump config after ready, 2ms
+2023-02-06 13:32:57,681 INFO 15069 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2023-02-06 13:32:57,530 INFO 15069 [egg:logger] init all loggers with options: {"dir":"/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"messageboard-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-02-06 13:32:57,625 INFO 15069 [egg:core] dump config after load, 2ms
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: ["/Users/liaozhikuan/Documents/GitHub/firstweek/app","/Users/liaozhikuan/Documents/GitHub/firstweek/config","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy","/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"]
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/config"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher:agent] watcher start success
+2023-02-06 13:32:57,683 INFO 15069 [egg:core] dump config after ready, 1ms
