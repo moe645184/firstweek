@@ -34,7 +34,7 @@ exports.pug = {}
 config.sequelize = {
   dialect: 'mysql',
   database: 'message',
-  host: 'host.docker.internal',
+  host: '127.0.0.1',
   port: '3307',
   username: 'test',
   password: 'test123',

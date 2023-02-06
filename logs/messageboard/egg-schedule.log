@@ -1,0 +1,6 @@
+2023-02-06 11:08:20,406 INFO 10782 [Timer] /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62499596ms at 2023-02-07 04:30:00.002
+2023-02-06 11:08:20,406 INFO 10782 [Timer] /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46299594ms at 2023-02-07 00:00:00.000
+2023-02-06 11:08:20,406 INFO 10782 [Timer] /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46300594ms at 2023-02-07 00:00:01.000
+2023-02-06 11:08:20,251 INFO 10793 [egg-schedule]: register schedule /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-02-06 11:08:20,251 INFO 10793 [egg-schedule]: register schedule /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-02-06 11:08:20,251 INFO 10793 [egg-schedule]: register schedule /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
