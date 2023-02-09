@@ -1,0 +1,82 @@
+2023-02-06 11:07:12,504 WARN 10660 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:12,363 INFO 10660 [egg:logger] init all loggers with options: {"dir":"/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"messageboard-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-02-06 11:07:12,459 INFO 10660 [egg:core] dump config after load, 1ms
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: ["/Users/liaozhikuan/Documents/GitHub/firstweek/app","/Users/liaozhikuan/Documents/GitHub/firstweek/config","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy","/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"]
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app"
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/config"
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks"
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy"
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
+2023-02-06 11:07:12,484 INFO 10660 [egg-watcher:agent] watcher start success
+2023-02-06 11:07:13,510 WARN 10660 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:14,515 WARN 10660 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:15,524 ERROR 10660 nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND host.docker.internal
+    at ConnectionManager.connect (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:96:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/sequelize.js:456:5)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"host.docker.internal","fatal":true}
+original: {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"host.docker.internal","fatal":true}
+pid: 10660
+hostname: TangChuandeMacBook-Air-3.local
+
+2023-02-06 11:07:15,532 INFO 10660 [egg:core] dump config after ready, 6ms
+2023-02-06 11:07:37,205 WARN 10715 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:37,114 INFO 10715 [egg:logger] init all loggers with options: {"dir":"/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"messageboard-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-02-06 11:07:37,183 INFO 10715 [egg:core] dump config after load, 2ms
+2023-02-06 11:07:37,203 INFO 10715 [egg-watcher] Start watching: ["/Users/liaozhikuan/Documents/GitHub/firstweek/app","/Users/liaozhikuan/Documents/GitHub/firstweek/config","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy","/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"]
+2023-02-06 11:07:37,203 INFO 10715 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app"
+2023-02-06 11:07:37,203 INFO 10715 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/config"
+2023-02-06 11:07:37,203 INFO 10715 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks"
+2023-02-06 11:07:37,203 INFO 10715 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy"
+2023-02-06 11:07:37,204 INFO 10715 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
+2023-02-06 11:07:37,204 INFO 10715 [egg-watcher:agent] watcher start success
+2023-02-06 11:07:38,212 WARN 10715 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:39,218 WARN 10715 Sequelize Error: getaddrinfo ENOTFOUND host.docker.internal, sleep 1 seconds to retry...
+2023-02-06 11:07:40,224 ERROR 10715 nodejs.SequelizeHostNotFoundError: getaddrinfo ENOTFOUND host.docker.internal
+    at ConnectionManager.connect (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:96:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:220:24)
+    at async /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:174:32
+    at async ConnectionManager.getConnection (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:197:7)
+    at async /Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/sequelize.js:304:26
+    at async Sequelize.authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/sequelize/lib/sequelize.js:456:5)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:134:7)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/liaozhikuan/Documents/GitHub/firstweek/node_modules/egg-sequelize/lib/loader.js:142:7)
+name: "SequelizeHostNotFoundError"
+parent: {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"host.docker.internal","fatal":true}
+original: {"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"host.docker.internal","fatal":true}
+pid: 10715
+hostname: TangChuandeMacBook-Air-3.local
+
+2023-02-06 11:07:40,229 INFO 10715 [egg:core] dump config after ready, 5ms
+2023-02-06 11:08:19,856 INFO 10782 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2023-02-06 11:08:19,726 INFO 10782 [egg:logger] init all loggers with options: {"dir":"/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"messageboard-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-02-06 11:08:19,799 INFO 10782 [egg:core] dump config after load, 2ms
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: ["/Users/liaozhikuan/Documents/GitHub/firstweek/app","/Users/liaozhikuan/Documents/GitHub/firstweek/config","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy","/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"]
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app"
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/config"
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks"
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy"
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
+2023-02-06 11:08:19,819 INFO 10782 [egg-watcher:agent] watcher start success
+2023-02-06 11:08:19,859 INFO 10782 [egg:core] dump config after ready, 2ms
+2023-02-06 13:32:57,681 INFO 15069 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2023-02-06 13:32:57,530 INFO 15069 [egg:logger] init all loggers with options: {"dir":"/Users/liaozhikuan/Documents/GitHub/firstweek/logs/messageboard","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"messageboard-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-02-06 13:32:57,625 INFO 15069 [egg:core] dump config after load, 2ms
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: ["/Users/liaozhikuan/Documents/GitHub/firstweek/app","/Users/liaozhikuan/Documents/GitHub/firstweek/config","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks","/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy","/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"]
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/config"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/mocks_proxy"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher] Start watching: "/Users/liaozhikuan/Documents/GitHub/firstweek/app.js"
+2023-02-06 13:32:57,647 INFO 15069 [egg-watcher:agent] watcher start success
+2023-02-06 13:32:57,683 INFO 15069 [egg:core] dump config after ready, 1ms
